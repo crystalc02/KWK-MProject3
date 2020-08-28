@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+body{
+  background-image: url(https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+
+  font-family: 'Playfair Display', serif;
+}
+h1{
+  /*color: midnightblue;
+  background-color: #6C698D;*/
+  font-family: 'Bungee', cursive;
+  text-align: center;
+  //padding: 15px;
+  font-size: 250%;
+}
+.inst{
+  color: midnightblue;
+}
+.instructions{
+  display: flex;
+  display: column;
+  display: block;
+  background-color: #BFAFA6;
+  color: midnightblue;
+  margin-left: 80px;
+  margin-right:80px;
+  padding: 8px;
+  margin-bottom: 50px;
+}
+p{
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  color: midnightblue;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.card{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+button{
+  background-color: #EFFFC8;
+  border: 3px solid white;
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 10px;
+  font-family: 'Playfair Display';
+  text-align: center;
+}
+button:hover{
+  font-style: italic;
+  background-color: palegreen;
+}
+input{
+  border: 2px solid #EFFFC8;
+  margin: 10px;
+  font-family: 'Arial';
+}
+section{
+  display: flex;
+  display: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 500px;
+  margin-left: 500px;
+  background-color: #6C698D;
+  border: 5px solid #6C698D;
+}
+.delete{
+  margin: 20px;
+}
+img{
+  width: 500px;
+  height: 200px;
+  object-fit: cover;
+  background-color: midnightblue;
+  margin: 10px;
+}
+.pics{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.bottomPics{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+.card{
+  display:flex;
+  background-color: #BFAFA6;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+.message{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 175%;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+.delete{
+  display: block;
+  background-color: #6C698D;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label{
+  color:white;
+}
+.zodiacPic{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
